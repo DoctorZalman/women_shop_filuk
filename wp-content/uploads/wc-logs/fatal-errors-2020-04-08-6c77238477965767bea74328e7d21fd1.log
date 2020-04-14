@@ -1,0 +1,60 @@
+2020-04-08T16:04:16+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php:52
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', true)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(2): get_header()
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#7 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php on line 52
+
+2020-04-08T16:04:24+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php:52
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', true)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(2): get_header()
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#7 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php on line 52
+
+2020-04-08T16:04:28+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php:52
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', true)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(2): get_header()
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#7 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php on line 52
+
+2020-04-08T16:05:58+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php:52
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', true)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(2): get_header()
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#7 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php on line 52
+
+2020-04-08T16:06:02+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php:52
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', true)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(2): get_header()
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#7 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php on line 52
+

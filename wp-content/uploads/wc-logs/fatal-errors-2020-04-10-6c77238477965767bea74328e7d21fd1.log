@@ -1,0 +1,150 @@
+2020-04-10T09:50:44+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 838
+
+2020-04-10T10:36:19+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1306): wc_get_template('loop/sale-flash...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_show_product_loop_sale_flash('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(35): do_action('woocommerce_bef...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-c in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php on line 25
+
+2020-04-10T10:40:46+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1306): wc_get_template('loop/sale-flash...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_show_product_loop_sale_flash('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(35): do_action('woocommerce_bef...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-c in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php on line 25
+
+2020-04-10T10:40:55+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1306): wc_get_template('loop/sale-flash...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_show_product_loop_sale_flash('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(35): do_action('woocommerce_bef...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-c in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php on line 25
+
+2020-04-10T10:42:25+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1306): wc_get_template('loop/sale-flash...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_show_product_loop_sale_flash('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(35): do_action('woocommerce_bef...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-c in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php on line 25
+
+2020-04-10T10:42:43+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1306): wc_get_template('loop/sale-flash...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_show_product_loop_sale_flash('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(35): do_action('woocommerce_bef...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-c in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php on line 25
+
+2020-04-10T12:04:39+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\single-product\rating.php:28
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(67): do_action('woocommerce_sin...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfi in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\single-product\rating.php on line 28
+
+2020-04-10T13:32:29+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php:28
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1297): wc_get_template('loop/rating.php')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_template_loop_rating('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(39): do_action('woocommerce_aft...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-content\ in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php on line 28
+
+2020-04-10T13:32:50+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php:28
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1297): wc_get_template('loop/rating.php')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_template_loop_rating('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(39): do_action('woocommerce_aft...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-content\ in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php on line 28
+
+2020-04-10T17:18:06+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1306): wc_get_template('loop/sale-flash...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_show_product_loop_sale_flash('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(38): do_action('woocommerce_bef...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-c in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\sale-flash.php on line 25
+
+2020-04-10T17:46:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_sale_price() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php:292
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 292
+
+2020-04-10T17:46:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_sale_price() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php:292
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 292
+
+2020-04-10T17:46:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_price() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php:292
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 292
+
+2020-04-10T17:51:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php:292
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 292
+
+2020-04-10T17:51:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php:292
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 292
+
+2020-04-10T17:53:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 292 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\post.php:2120
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(292): get_post_meta()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#4 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-includes\post.php on line 2120
+

@@ -1,0 +1,41 @@
+2020-04-14T08:05:23+00:00 CRITICAL syntax error, unexpected 'visible' (T_STRING) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product-cat.php on line 19
+
+2020-04-14T08:07:06+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product-cat.php on line 21
+
+2020-04-14T08:16:07+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php:28
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1297): wc_get_template('loop/rating.php')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_template_loop_rating('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product-cat.php(38): do_action('woocommerce_aft...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-cont in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php on line 28
+
+2020-04-14T08:16:11+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php:28
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1297): wc_get_template('loop/rating.php')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_template_loop_rating('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product-cat.php(38): do_action('woocommerce_aft...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-cont in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php on line 28
+
+2020-04-14T08:20:26+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php:28
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1297): wc_get_template('loop/rating.php')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_template_loop_rating('')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product-cat.php(22): do_action('woocommerce_aft...')
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#7 D:\php\OSPanel\domains\shopfiluk\wp-cont in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\loop\rating.php on line 28
+
+2020-04-14T09:06:34+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php on line 6
+
+2020-04-14T09:07:52+00:00 CRITICAL syntax error, unexpected '<' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php on line 26
+

@@ -1,0 +1,78 @@
+2020-04-09T09:57:44+00:00 CRITICAL syntax error, unexpected end of file у D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php доступно 88
+
+2020-04-09T09:59:44+00:00 CRITICAL syntax error, unexpected end of file у D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php доступно 88
+
+2020-04-09T10:02:12+00:00 CRITICAL syntax error, unexpected end of file у D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php доступно 88
+
+2020-04-09T10:02:12+00:00 CRITICAL syntax error, unexpected end of file у D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php доступно 88
+
+2020-04-09T10:11:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
+2020-04-09T10:11:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
+2020-04-09T11:01:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
+2020-04-09T11:02:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
+2020-04-09T11:02:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
+2020-04-09T11:03:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
+2020-04-09T11:03:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_attached_media(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php on line 9 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:4066
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\home-slider.php(9): get_attached_media()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(6): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\w у D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php доступно 4066
+
