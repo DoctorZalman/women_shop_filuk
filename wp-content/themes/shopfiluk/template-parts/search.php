@@ -4,6 +4,7 @@
       <i class="zmdi zmdi-search"></i>
     </button>
 
-    <input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" name="search-product" placeholder="Search">
+    <input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" name="s" placeholder="Search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+<!--    <form method="get" action="--><?php //echo esc_url( home_url( '/' ) ); ?><!--">-->
   </div>
 </div>

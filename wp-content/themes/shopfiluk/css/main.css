@@ -3038,7 +3038,9 @@ input.num-product::-webkit-inner-spin-button {
   right: -21px;
 }
 
-
+.m-b--30 {
+  margin-bottom: 10px !important;
+}
 
 /*==================================================================
       PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO

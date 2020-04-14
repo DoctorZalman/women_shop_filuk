@@ -39,3 +39,5 @@ Stack trace:
 
 2020-04-14T09:07:52+00:00 CRITICAL syntax error, unexpected '<' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php on line 26
 
+2020-04-14T17:38:10+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 22
+

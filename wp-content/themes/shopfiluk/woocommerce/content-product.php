@@ -3,6 +3,7 @@ if (! defined('ABSPATH')){
   exit; // Exit if accessed directly
 }
 global $product; // об'являємо глобальну змінну "продукт" - отримуємо змінну, яку ми отримали на поточній ітерації циклу
+$price_html = $product->get_price_html();
 ?>
 
 
@@ -11,7 +12,7 @@ global $product; // об'являємо глобальну змінну "про�
     <div class="block2-pic hov-img0">
       <?php echo woocommerce_get_product_thumbnail();?>
 
-      <a href="<?php echo get_the_permalink();?>" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">Quick View</a>
+      <a href="'.<?php echo get_the_permalink();?>.'" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">Quick View</a>
 
     </div>
     <div class="block2-txt flex-w flex-t p-t-14">
@@ -21,7 +22,7 @@ global $product; // об'являємо глобальну змінну "про�
         <a href="<?php echo get_the_permalink();?>" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"><?php echo get_the_title()?></a>
 
         <span class="stext-105 cl3">
-          <?php do_action('woocommerce_after_shop_loop_item_title'); ?>
+          <?php echo $price_html?>
         </span>
 
       </div>

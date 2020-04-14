@@ -6,12 +6,19 @@ add_action( 'wp_enqueue_scripts', 'my_scripts_and_styles');
 //register menus
 add_action( 'after_setup_theme', 'register_menus');
 
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+  add_theme_support( 'woocommerce' );
+}
 // woocomerce style off
 add_filter('woocommerce_enqueue_styles','__return_empty_array');
 
 // //register widget zones
 add_action( 'widgets_init', 'widgets_header' );
 add_theme_support( 'post-thumbnails' );
+
+
+
 
 
 function my_scripts_and_styles() {
@@ -59,7 +66,7 @@ function widgets_header() {
   register_sidebar( [
     'name'=> 'Пошук',
     'id' => 'search',
-    'before_widget' => '<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">',
+    'before_widget' => '<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search ">',
     'after_widget' => '</div>',
     'before_title' => '',
     'after_title' => '',
