@@ -1,0 +1,171 @@
+2020-04-18T09:06:14+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-18T09:48:55+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-18T12:18:59+00:00 CRITICAL syntax error, unexpected '?' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 98
+
+2020-04-18T12:19:03+00:00 CRITICAL syntax error, unexpected '?' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 98
+
+2020-04-18T12:19:23+00:00 CRITICAL syntax error, unexpected '?' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 98
+
+2020-04-18T12:22:20+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\quantity-input.php on line 66
+
+2020-04-18T12:24:08+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\quantity-input.php on line 66
+
+2020-04-18T12:26:24+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\quantity-input.php on line 27
+
+2020-04-18T13:57:21+00:00 CRITICAL syntax error, unexpected ':', expecting ',' or ')' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\global\quantity-input.php on line 51
+
+2020-04-18T13:58:43+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1576
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\cart.php(115): woocommerce_template_single_add_to_cart()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#4 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1576
+
+2020-04-18T13:58:56+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1576
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\cart.php(115): woocommerce_template_single_add_to_cart()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#4 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1576
+
+2020-04-18T13:59:56+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1576
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\cart.php(133): woocommerce_template_single_add_to_cart()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#4 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1576
+
+2020-04-18T16:36:29+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 229
+
+2020-04-18T16:37:28+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 229
+
+2020-04-18T16:37:50+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 229
+
+2020-04-18T16:37:51+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 229
+
+2020-04-18T17:29:00+00:00 CRITICAL syntax error, unexpected end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 249
+
+2020-04-18T17:52:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 31 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(31): add_shortcode(Array)
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T17:52:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 31 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(31): add_shortcode(Array)
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T17:52:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 31 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(31): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\ in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T17:59:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 31 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(31): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\ in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T18:00:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 30 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(30): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\ in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T18:00:50+00:00 CRITICAL syntax error, unexpected 'add_shortcode' (T_STRING), expecting ',' or ';' in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 27
+
+2020-04-18T18:00:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 27 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(27): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\ in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T18:07:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php on line 23 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php(23): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php(24): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domain in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T18:08:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php on line 23 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php(23): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php(24): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domain in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T18:08:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php on line 23 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php(23): add_shortcode('[ti_wishlists_a...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php(24): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domain in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
+2020-04-18T18:08:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php on line 23 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\home-screen\navigation.php(23): add_shortcode('[wishlists_addt...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\header.php(24): get_template_part('template-parts/...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(723): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domain in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+

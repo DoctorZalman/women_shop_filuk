@@ -17,9 +17,14 @@ add_filter('woocommerce_enqueue_styles','__return_empty_array');
 add_action( 'widgets_init', 'widgets_header' );
 add_theme_support( 'post-thumbnails' );
 
+function add_fontawesome_kit() {
+  wp_register_script( 'fa-kit', 'https://kit.fontawesome.com/bf73a98272.js', array( 'jquery' ) , '5.9.0', true ); // -- From an External URL
 
+// Javascript - Enqueue Scripts
+  wp_enqueue_script( 'fa-kit' );
+}
 
-
+add_action( 'wp_enqueue_scripts', 'add_fontawesome_kit', 100 );
 
 function my_scripts_and_styles() {
   wp_enqueue_script('jquery', get_template_directory_uri().'/vendor/jquery/jquery-3.2.1.min.js', [], null, true);
@@ -36,8 +41,14 @@ function my_scripts_and_styles() {
   wp_enqueue_script('isotope', get_template_directory_uri().'/vendor/isotope/isotope.pkgd.min.js', [], null, true);
   wp_enqueue_script('sweetalert', get_template_directory_uri().'/vendor/sweetalert/sweetalert.min.js', [], null, true);
   wp_enqueue_script('perfect-scrollbar', get_template_directory_uri().'/vendor/perfect-scrollbar/perfect-scrollbar.min.js', [], null, true);
+  wp_enqueue_script("my-ajax-handle", get_stylesheet_directory_uri() . "/js/ajax.js", [], null, true);
+  //the_ajax_script will use to print admin-ajaxurl in custom ajax.js
+  wp_localize_script('my-ajax-handle', 'the_ajax_script', array('ajaxurl' => admin_url('admin-ajax.php')));
+
   wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', [], null, true);
 
+
+  wp_enqueue_style('dashicons');
 
   wp_enqueue_style('bootstrap', get_template_directory_uri().'/vendor/bootstrap/css/bootstrap.min.css', array(), '0.1.0', 'all');
   wp_enqueue_style('font-awesome', get_template_directory_uri().'/fonts/font-awesome-4.7.0/css/font-awesome.min.css', array(), '0.1.0', 'all');
@@ -58,7 +69,9 @@ function my_scripts_and_styles() {
 function register_menus() {
   register_nav_menus( [
     'header_menu' => 'Header menu',
-    'footer_menu' => 'Footer menu'
+    'footer_menu' => 'Footer menu',
+    'social_icon' => 'Social icon',
+    'wish_list'   => 'Wish list'
   ]);
 }
 
@@ -134,7 +147,7 @@ function widgets_footer() {
 
 //-для изображения товара на странице каталога
 
-add_filter('woocommerce_get_image_size_thumbnail','add_thumbnail_size',1,10);
+add_filter('woocommerce_get_image_size_thumbnail','add_thumbnail_size', 1);
 function add_thumbnail_size($size){
 
   $size['width'] = 270;
@@ -142,12 +155,13 @@ function add_thumbnail_size($size){
   $size['crop']   = 1; //0 - не обрезаем, 1 - обрезка
   return $size;
 }
-//- для большого изображения на странице товара
+
+//// - для большого изображения на странице товара
 add_filter('woocommerce_get_image_size_single','add_single_size',1,10);
 function add_single_size($size){
 
-  $size['width'] = 1200;
-  $size['height'] = 1485;
+  $size['width'] = 420;
+  $size['height'] = 520;
   $size['crop']   = 0;
   return $size;
 }
@@ -163,39 +177,91 @@ function add_gallery_thumbnail_size($size){
   return $size;
 }
 
-//function woocommerce_template_loop_product_thumbnail() {
-//  echo woocommerce_get_product_thumbnail();
-//}
+remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
 
-// guttn custom block
-/**
- * Register Blocks
- *
- */
+//load more
+
+function more_post_ajax()
+{
+  $ppp = (isset($_POST["ppp"])) ? $_POST["ppp"] : 1;
+  $page = (isset($_POST['pageNumber'])) ? $_POST['pageNumber'] : 0;
+  header("Content-Type: text/html");
+  $args = array(
+    'suppress_filters' => true,
+    'post_type' => 'product',  // вроді тре змінити на product
+    'posts_per_page' => $ppp,
+    'paged' => $page,
+  );
+  $loop = new WP_Query($args);
+  $out = '';
+  if ($loop->have_posts()) : while ($loop->have_posts()) : $loop->the_post();
+    $out .= wc_get_template_part('content', 'product');
+  endwhile;
+  endif;
+  wp_reset_postdata();
+  die($out);
+}
+add_action('wp_ajax_nopriv_more_post_ajax', 'more_post_ajax');
+add_action('wp_ajax_more_post_ajax', 'more_post_ajax');
+//load more end
 
 
-//function be_register_blocks() {
-//  if( ! function_exists('acf_register_block') )
-//    return;
-//  acf_register_block( array(
-//    'name'			=> 'about-text-1',
-//    'title'			=> __( 'about-text-1', 'text-1' ),
-//    'render_template'	=> 'template-parts/about/text-1.php',
-//    'category'		=> 'formatting',
-//    'icon'			=> 'admin-users',
-//    'mode'			=> 'preview',
-//    'keywords'		=> array( 'profile', 'user', 'author' )
-//  ));
-//
-//  acf_register_block( array(
-//    'name'			=> 'about-text-2',
-//    'title'			=> __( 'about-text-2', 'text-2' ),
-//    'render_template'	=> 'template-parts/about/text-2.php',
-//    'category'		=> 'formatting',
-//    'icon'			=> 'admin-users',
-//    'mode'			=> 'preview',
-//    'keywords'		=> array( 'profile', 'user', 'author' )
-//  ));
-//}
-//add_action('acf/init', 'be_register_blocks' );
-//
+
+function my_header_add_to_cart_fragment( $fragments ) {
+  ob_start();
+  $count = WC()->cart->cart_contents_count;
+  ?><a class="cart-contents" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php
+  if ( $count > 0 ) {
+    ?>
+    <span class="cart-contents-count"><?php echo esc_html( $count ); ?></span>
+    <?php
+  }
+  ?></a><?php
+
+  $fragments['a.cart-contents'] = ob_get_clean();
+
+  return $fragments;
+}
+add_filter( 'woocommerce_add_to_cart_fragments', 'my_header_add_to_cart_fragment' );
+
+
+
+add_action( 'widgets_init', 'cart_header' );
+
+function cart_header() {
+  register_sidebar( [
+    'name'=> 'cart_header',
+    'id' => 'cart_header',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<div class="header-cart-content flex-w js-pscroll">',
+    'after_title' => '</div>',
+  ] ); }
+
+add_action( 'widgets_init', 'social_icon' );
+
+function social_icon() {
+  register_sidebar([
+    'name'=> 'social_icon',
+    'id' => 'social_icon',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<div class="flex-m bor9 p-r-10 m-r-11">',
+    'after_title' => '</div>',
+  ]);
+}
+
+add_action( 'widgets_init', 'filter' );
+
+function filter() {
+  register_sidebar( [
+    'name'=> 'filter',
+    'id' => 'filter',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '',
+    'after_title' => '',
+  ] );
+}
+
+

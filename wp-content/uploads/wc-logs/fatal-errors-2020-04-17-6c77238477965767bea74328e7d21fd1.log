@@ -1,0 +1,63 @@
+2020-04-17T08:56:55+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\content-page.php on line 128
+
+2020-04-17T10:06:49+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\content-page.php:62
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(672): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php(21): get_template_part('template-parts/...', 'page')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#7 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\content-page.php on line 62
+
+2020-04-17T12:01:24+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\template-parts\content-page.php on line 268
+
+2020-04-17T13:18:28+00:00 CRITICAL syntax error, unexpected 'большого' (T_STRING) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 150
+
+2020-04-17T13:18:29+00:00 CRITICAL syntax error, unexpected 'большого' (T_STRING) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 150
+
+2020-04-17T13:27:43+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:15
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(43): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 15
+
+2020-04-17T18:35:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 171 and at least 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php:583
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php(171): remove_action('woocommerce_cro...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-settings.php(514): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-config.php(90): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-load.php(37): require_once('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(13): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php on line 583
+
+2020-04-17T18:35:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 171 and at least 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php:583
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php(171): remove_action('woocommerce_cro...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-settings.php(514): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-config.php(90): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-load.php(37): require_once('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(13): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php on line 583
+
+2020-04-17T18:35:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 171 and at least 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php:583
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php(171): remove_action('woocommerce_cro...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-settings.php(514): include('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-config.php(90): require_once('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-load.php(37): require_once('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-admin\admin-ajax.php(22): require_once('D:\\php\\OSPanel\\...')
+#5 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php on line 583
+

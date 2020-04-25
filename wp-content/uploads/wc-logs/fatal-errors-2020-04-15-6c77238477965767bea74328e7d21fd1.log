@@ -9,3 +9,94 @@ Stack trace:
 #6 {main}
   thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 20
 
+2020-04-15T06:15:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_image_id() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:20
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 20
+
+2020-04-15T06:27:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_gallery_image_html(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 20 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1461
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(20): wc_get_gallery_image_html()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\ in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1461
+
+2020-04-15T07:22:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 22 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(22): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T07:27:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 23 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(23): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T07:27:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 23 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(23): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T07:28:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 23 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(23): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T07:28:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 23 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(23): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T07:28:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 23 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(23): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T07:29:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 23 and at least 1 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php:1021
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php(23): wp_get_attachment_image()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(33): wc_get_template_part('content', 'single-product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once(' in D:\php\OSPanel\domains\shopfiluk\wp-includes\media.php on line 1021
+
+2020-04-15T13:16:02+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 27
+
+2020-04-15T13:16:10+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 27
+
+2020-04-15T13:20:18+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 15
+
+2020-04-15T13:20:44+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 15
+

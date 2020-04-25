@@ -1,0 +1,94 @@
+2020-04-16T12:44:48+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 352
+
+2020-04-16T12:44:56+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 352
+
+2020-04-16T12:47:18+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 352
+
+2020-04-16T12:48:43+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 353
+
+2020-04-16T12:50:46+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 354
+
+2020-04-16T12:53:21+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 354
+
+2020-04-16T12:53:34+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 354
+
+2020-04-16T14:05:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:05:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:05:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:10:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:11:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:12:34+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:13:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T14:14:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:22
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 22
+
+2020-04-16T18:08:17+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:21
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 21
+
+2020-04-16T18:09:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_pert() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php:21
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\page.php on line 21
+

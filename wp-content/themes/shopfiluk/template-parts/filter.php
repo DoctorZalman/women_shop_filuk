@@ -4,6 +4,10 @@ if (! defined('ABSPATH')){
 }?>
 <div class="dis-none panel-filter w-full p-t-10">
   <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
+
+    <?php dynamic_sidebar( 'filter' ); ?>
+<!--    --><?php //filter_list(); ?>
+<!--    Sort By-->
     <div class="filter-col1 p-r-15 p-b-27">
       <div class="mtext-102 cl2 p-b-15">
         Sort By
@@ -47,7 +51,7 @@ if (! defined('ABSPATH')){
         </li>
       </ul>
     </div>
-
+<!--    Price-->
     <div class="filter-col2 p-r-15 p-b-27">
       <div class="mtext-102 cl2 p-b-15">
         Price
@@ -91,7 +95,7 @@ if (! defined('ABSPATH')){
         </li>
       </ul>
     </div>
-
+<!--    Color-->
     <div class="filter-col3 p-r-15 p-b-27">
       <div class="mtext-102 cl2 p-b-15">
         Color
@@ -159,7 +163,7 @@ if (! defined('ABSPATH')){
         </li>
       </ul>
     </div>
-
+<!--    Tags-->
     <div class="filter-col4 p-b-27">
       <div class="mtext-102 cl2 p-b-15">
         Tags

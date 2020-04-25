@@ -1,0 +1,195 @@
+2020-04-20T04:49:18+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:277
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 277
+
+2020-04-20T04:51:54+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:247
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 247
+
+2020-04-20T04:55:11+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:246
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 246
+
+2020-04-20T04:56:07+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:247
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 247
+
+2020-04-20T04:56:24+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:247
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 247
+
+2020-04-20T08:03:31+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:214
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 214
+
+2020-04-20T08:16:29+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:16:47+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:19:27+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:21:15+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:22:52+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:23:02+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:25:14+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:25:22+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:205
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 205
+
+2020-04-20T08:34:57+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 223
+
+2020-04-20T08:42:43+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 365
+
+2020-04-20T08:59:47+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:206
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 206
+
+2020-04-20T09:02:26+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 366
+
+2020-04-20T09:03:56+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 366
+
+2020-04-20T09:34:12+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:218
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 218
+
+2020-04-20T09:36:07+00:00 CRITICAL Uncaught Error: Call to undefined function wp_star_rating() in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php:218
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\single-product.php(14): wc_get_template_part('content', 'single-product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-single-product.php on line 218
+
