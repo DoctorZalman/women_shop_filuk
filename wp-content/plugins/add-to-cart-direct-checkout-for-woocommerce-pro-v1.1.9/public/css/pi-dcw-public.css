@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .pisol_buy_now_button{
+     padding:10px 15px !important;
+     margin-top:10px;
+     margin-bottom:10px;
+     display: block !important;
+     text-align: center;
+     width:100% !important;
+ }

@@ -1,0 +1,10 @@
+2020-04-27T06:57:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 22 and exactly 2 expected in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php:63
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php(22): add_shortcode('[yith_wcwl_add_...')
+#1 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php(21): wc_get_template_part('content', 'product')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#6 D:\php\OSPanel in D:\php\OSPanel\domains\shopfiluk\wp-includes\shortcodes.php on line 63
+
