@@ -46,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 //		 };
 
 	  comment_form([
-		  'comment_field' => '<p><sup>*</sup>Коментар <br>
+		  'comment_field' => '<p><sup>*</sup>Comment <br>
 				<textarea id="comment" name="comment" class="form-control"></textarea>
 			</p>' . '<div class="comment-form-rating"><label for="rating">' . esc_html__( 'Your rating', 'woocommerce' ) .'</label><select name="rating" id="rating" required>
 						<option value="">' . esc_html__( 'Rate&hellip;', 'woocommerce' ) . '</option>
@@ -58,7 +58,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					</select></div>',
 
 		  'fields' => [
-			  'author' => '<p><sup>*</sup>Ім\'я <br>
+			  'author' => '<p><sup>*</sup>Name <br>
 											<input id="author" name="author" type="text" class="form-control"/>
 										</p>',
 			  'email' => '<p><sup>*</sup>Email <br>
@@ -68,7 +68,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		  'class_submit'  => 'btn btn-primary pull-right',
 		  'label_submit'  => __('Post Comment'),
-		  'title_reply'   => 'Залишіть коментар',
+		  'title_reply'   => 'Comment',
 	  ]);
 		 ?>
 

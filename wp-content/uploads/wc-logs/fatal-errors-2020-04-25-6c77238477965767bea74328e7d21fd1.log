@@ -2,3 +2,156 @@
 
 2020-04-25T12:13:11+00:00 CRITICAL Cannot redeclare cart_header() (previously declared in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php:232) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 264
 
+2020-04-25T14:28:53+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php:19
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#2 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#3 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 19
+
+2020-04-25T14:34:35+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php(25): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T14:35:21+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php(25): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T14:36:27+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php(25): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T14:37:26+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php(25): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T14:37:39+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\taxonomy-product_cat.php(25): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:09:21+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:10:17+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:10:50+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:11:23+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:11:35+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:12:49+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:16:26+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+
+2020-04-25T15:16:57+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 23
+
+2020-04-25T15:31:19+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php:6
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-includes\template.php(725): require()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\php\\OSPanel\\...', false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php(22): wc_get_template_part('content', 'product')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\template-loader.php(106): include('D:\\php\\OSPanel\\...')
+#4 D:\php\OSPanel\domains\shopfiluk\wp-blog-header.php(19): require_once('D:\\php\\OSPanel\\...')
+#5 D:\php\OSPanel\domains\shopfiluk\index.php(17): require('D:\\php\\OSPanel\\...')
+#6 {main}
+  thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\content-product.php on line 6
+

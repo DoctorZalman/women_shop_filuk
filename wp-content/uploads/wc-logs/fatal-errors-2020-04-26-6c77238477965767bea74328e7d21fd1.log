@@ -6,3 +6,5 @@ Stack trace:
 #3 {main}
   thrown in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\home.php on line 3
 
+2020-04-26T12:19:46+00:00 CRITICAL syntax error, unexpected '>', expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\archive-product.php on line 23
+

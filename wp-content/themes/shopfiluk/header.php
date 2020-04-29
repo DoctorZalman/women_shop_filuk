@@ -20,15 +20,13 @@
   <div class="container-menu-desktop">
     <!-- Topbar -->
     <?php get_template_part('template-parts/home-screen/top-bar'); ?>
-
     <?php get_template_part('template-parts/home-screen/navigation'); ?>
-
 
   <!-- Header Mobile -->
   <div class="wrap-header-mobile">
     <!-- Logo moblie -->
     <div class="logo-mobile">
-      <a href="index.html"><img src="<?php echo get_template_directory_uri();?>./images/icons/logo-01.png" alt="IMG-LOGO"></a>
+      <a href="<?php echo home_url('/home'); ?>"><img src="<?php echo get_template_directory_uri();?>./images/icons/logo-01.png" alt="IMG-LOGO"></a>
     </div>
 
 <!--     Icon header -->
@@ -87,22 +85,22 @@
 
     <ul class="main-menu-m">
       <li>
-        <a href="index.html">Home</a>
-        <span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="false"></i>
-					</span>
+        <a href="i<?php echo home_url('/home'); ?>">Home</a>
+<!--        <span class="arrow-main-menu-m">-->
+<!--						<i class="fa fa-angle-right" aria-hidden="false"></i>-->
+<!--					</span>-->
       </li>
 
       <li>
-        <a href="product.html">Shop</a>
+        <a href="<?php echo home_url('/shop'); ?>">Shop</a>
       </li>
 
       <li>
-        <a href="about.html">About us</a>
+        <a href="<?php echo home_url('/about'); ?>">About us</a>
       </li>
 
       <li>
-        <a href="contact.html">Contact</a>
+        <a href="<?php echo home_url('/contact'); ?>">Contact</a>
       </li>
     </ul>
   </div>
@@ -125,20 +123,20 @@
 </header>
 
 <!-- Cart -->
-<div class="wrap-header-cart js-panel-cart">
-  <div class="s-full js-hide-cart"></div>
-
-  <div class="header-cart flex-col-l p-l-65 p-r-25">
-    <div class="header-cart-title flex-w flex-sb-m p-b-8">
-				<span class="mtext-103 cl2">
-					Your Cart
-				</span>
-
-      <div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
-        <i class="zmdi zmdi-close"></i>
-      </div>
-    </div>
-
+<!--<div class="wrap-header-cart js-panel-cart">-->
+<!--  <div class="s-full js-hide-cart"></div>-->
+<!---->
+<!--  <div class="header-cart flex-col-l p-l-65 p-r-25">-->
+<!--    <div class="header-cart-title flex-w flex-sb-m p-b-8">-->
+<!--				<span class="mtext-103 cl2">-->
+<!--					Your Cart-->
+<!--				</span>-->
+<!---->
+<!--      <div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">-->
+<!--        <i class="zmdi zmdi-close"></i>-->
+<!--      </div>-->
+<!--    </div>-->
+<!---->
 <!--    <div class="header-cart-content flex-w js-pscroll">-->
 <!--      <ul class="header-cart-wrapitem w-full">-->
 <!--        <li class="header-cart-item flex-w flex-t m-b-12">-->
@@ -207,7 +205,7 @@
 <!--        </div>-->
 <!--      </div>-->
 <!--    </div>-->
-  </div>
-</div>
+<!--  </div>-->
+<!--</div>-->
 
 

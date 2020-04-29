@@ -54,6 +54,7 @@ $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
         <p class="stext-102 cl3 p-t-23"><?php echo $short_description; // WPCS: XSS ok. ?></p>
         <!-- Size-->
         <div class="p-t-33">
+          <?php woocommerce_template_single_add_to_cart();?>
           <div class="flex-w flex-r-m p-b-10">
 
             <div class="size-203 flex-c-m respon6">
@@ -76,21 +77,23 @@ $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
           <div class="flex-w flex-r-m p-b-10">
             <div class="size-204 flex-w flex-m respon6-next">
-              <?php woocommerce_template_single_add_to_cart();?>
+
             </div>
           </div>
         </div>
         <!-- social-->
         <div class="flex-w flex-m p-l-100 p-t-40 respon7">
-            <?php wp_nav_menu([
-              'theme_location'  => 'social_icon',
-              'container'       => null,
-              'items_wrap'      => '%3$s'
-            ]);?>
+<!--            --><?php //wp_nav_menu([
+//              'theme_location'  => 'social_icon',
+//              'container'       => null,
+//              'items_wrap'      => '%3$s'
+//            ]);?>
 
-<!--            <a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">-->
+            <a href="<?php echo home_url('/wishlist'); ?>" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
+              <?php echo do_shortcode('[yith_wcwl_add_to_wishlist]'); ?>
+
 <!--              <i class="zmdi zmdi-favorite"></i>-->
-<!--            </a>-->
+            </a>
 
 <!--          <a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">-->
 <!--            <i class="fa fa-facebook"></i>-->
@@ -124,7 +127,7 @@ $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
 
         <li class="nav-item p-b-10">
-          <a class="nav-link" data-toggle="tab" href="#reviews" role="tab"><?php echo get_field('reviews_single_product');?></a>
+          <a class="nav-link" data-toggle="tab" href="#reviews" role="tab"><?php echo get_field('reviews_single_product', 'options');?></a>
         </li>
       </ul>
 
@@ -161,70 +164,70 @@ $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
           <div class="row">
             <div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
               <div class="p-b-30 m-lr-15-sm">
+
+
              <?php  $comments = get_comments(['post_id' => get_the_ID()]); ?>
-
                   <?php wp_list_comments($args, $comments);
-
                   comment_form([
-                    'comment_field' => '<p><sup>*</sup>Comment<br>
-				<textarea id="comment" name="comment" class="form-control"></textarea>
-			</p>' . '<div class="comment-form-rating"><label for="rating">' . esc_html__( 'Your rating', 'woocommerce' ) .'</label><select name="rating" id="rating" aria-required="true" required>
+                    'comment_field' => '<div class="col-12 p-b-5 stext-102 cl3"><p><sup>*</sup>Comment<br>
+				<textarea id="comment" name="comment" class="form-control size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10"></textarea>
+			</p></div>' . '<div class="comment-form-rating">
+			<label for="rating">' . esc_html__( 'Your rating', 'woocommerce' ) .'</label>
+			<select name="rating" id="rating" aria-required="true" required>
 						<option value="">' . esc_html__( 'Rate&hellip;', 'woocommerce' ) . '</option>
 						<option value="5">' . esc_html__( 'Perfect', 'woocommerce' ) . '</option>
 						<option value="4">' . esc_html__( 'Good', 'woocommerce' ) . '</option>
 						<option value="3">' . esc_html__( 'Average', 'woocommerce' ) . '</option>
 						<option value="2">' . esc_html__( 'Not that bad', 'woocommerce' ) . '</option>
 						<option value="1">' . esc_html__( 'Very poor', 'woocommerce' ) . '</option>
-					</select></div>',
-
+					</select>
+					</div>',
                     'fields' => [
-                      'author' => '<p><sup>*</sup>Ім\'я <br>
-											<input id="author" name="author" type="text" class="form-control"/>
-										</p>',
-                      'email' => '<p><sup>*</sup>Email <br>
-											<input id="email" name="email" type="email" class="form-control"/>
-										</p>'
+                      'author' => '<div class="col-sm-6 p-b-5">
+                          <p><sup>*</sup>Name<br>
+											<input id="author" name="author" type="text" class="form-control size-111 bor8 stext-102 cl2 p-lr-20"/>
+										</p>
+										</div>',
+                      'email' => '<div class="col-sm-6 p-b-5"><p><sup>*</sup>Email <br>
+											<input id="email" name="email" type="email" class="form-control size-111 bor8 stext-102 cl2 p-lr-20"/>
+										</p></div>'
                     ],
-
                     'class_submit'  => 'btn btn-primary pull-right',
                     'label_submit'  => __('Post Comment'),
                     'title_reply'   => 'Comment',
                   ]);
                   ?>
 
-
                 <!-- Review -->
-<!--                <div class="flex-w flex-t p-b-68">-->
-<!---->
-<!---->
-<!--                  <div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">-->
-<!--                    <img src="images/avatar-01.jpg" alt="AVATAR">-->
-<!--                  </div>-->
-<!---->
-<!--                  <div class="size-207">-->
-<!--                    <div class="flex-w flex-sb-m p-b-17">-->
-<!--													<span class="mtext-107 cl2 p-r-20">-->
-<!--														--><?php //_e( 'Author' ); ?>
-<!--													</span>-->
-<!---->
-<!--                      <span class="fs-18 cl11">-->
-<!--														<i class="zmdi zmdi-star"></i>-->
-<!--														<i class="zmdi zmdi-star"></i>-->
-<!--														<i class="zmdi zmdi-star"></i>-->
-<!--														<i class="zmdi zmdi-star"></i>-->
-<!--														<i class="zmdi zmdi-star-half"></i>-->
-<!--													</span>-->
-<!--                    </div>-->
-<!---->
-<!--                    <p class="stext-102 cl6">-->
-<!--                      --><?php //comment_author( $comment ); ?>
-<!--                    </p>-->
-<!--                  </div>-->
-<!--                </div>-->
+                <div class="flex-w flex-t p-b-68">
 
+                  <div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
+                    <img src="images/avatar-01.jpg" alt="AVATAR">
+                  </div>
 
+                  <div class="size-207">
+                    <div class="flex-w flex-sb-m p-b-17">
+													<span class="mtext-107 cl2 p-r-20">
+														Ariana Grande
+													</span>
+
+                      <span class="fs-18 cl11">
+														<i class="zmdi zmdi-star"></i>
+														<i class="zmdi zmdi-star"></i>
+														<i class="zmdi zmdi-star"></i>
+														<i class="zmdi zmdi-star"></i>
+														<i class="zmdi zmdi-star-half"></i>
+													</span>
+                    </div>
+
+                    <p class="stext-102 cl6">
+                      Quod autem in homine praestantissimum atque optimum est, id deseruit. Apud ceteros autem philosophos
+                    </p>
+                  </div>
+                </div>
+
+                 Add review
                 <form class="w-full">
-
                   <h5 class="mtext-108 cl2 p-b-7">
                     Add a review
                   </h5>
@@ -247,7 +250,7 @@ $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
 													<input class="dis-none" type="number" name="rating">
 												</span>
                   </div>
-
+<!---->
                   <div class="row p-b-25">
                     <div class="col-12 p-b-5">
                       <label class="stext-102 cl3" for="review">Your review</label>
@@ -264,7 +267,7 @@ $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
                       <input class="size-111 bor8 stext-102 cl2 p-lr-20" id="email" type="text" name="email">
                     </div>
                   </div>
-
+<!---->
                   <button class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 m-b-10">
                     Submit
                   </button>

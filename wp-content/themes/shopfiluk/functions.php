@@ -11,7 +11,7 @@ function woocommerce_support() {
   add_theme_support( 'woocommerce' );
 }
 // woocomerce style off
-add_filter('woocommerce_enqueue_styles','__return_empty_array');
+//add_filter('woocommerce_enqueue_styles','__return_empty_array');
 
 // //register widget zones
 add_action( 'widgets_init', 'widgets_header' );
@@ -152,7 +152,7 @@ function add_thumbnail_size($size){
 
   $size['width'] = 270;
   $size['height'] = 335;
-  $size['crop']   = 1; //0 - не обрезаем, 1 - обрезка
+  $size['crop']   = 0; //0 - не обрезаем, 1 - обрезка
   return $size;
 }
 
@@ -178,6 +178,7 @@ function add_gallery_thumbnail_size($size){
 }
 
 remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
+
 
 //load more
 
@@ -264,4 +265,62 @@ function filter() {
   ] );
 }
 
+if ( function_exists( 'acf_add_options_page' ) ) {
 
+  acf_add_options_page( array(
+    'menu_title' => 'Налаштування теми',
+    'menu_slug'  => 'theme-general-settings',
+  ) );
+
+  acf_add_options_sub_page( array(
+    'page_title'  => 'Reviews product',
+    'menu_title'  => 'Reviews product',
+    'parent_slug' => 'theme-general-settings',
+  ) );
+  acf_add_options_sub_page( array(
+    'page_title'  => 'Reviews fffproduct',
+    'menu_title'  => 'Reviews profffduct',
+    'parent_slug' => 'theme-general-settings',
+  ) );
+
+
+
+};
+//
+////Hide Price Range for WooCommerce Variable Products
+//add_filter( 'woocommerce_variable_sale_price_html',
+//  'lw_variable_product_price', 10, 2 );
+//add_filter( 'woocommerce_variable_price_html',
+//  'lw_variable_product_price', 10, 2 );
+//
+//function lw_variable_product_price( $v_price, $v_product ) {
+//
+//// Product Price
+//  $prod_prices = array( $v_product->get_variation_price( 'min', true ),
+//    $v_product->get_variation_price( 'max', true ) );
+//  $prod_price = $prod_prices[0]!==$prod_prices[1] ? sprintf(__('From: %1$s', 'woocommerce'),
+//    wc_price( $prod_prices[0] ) ) : wc_price( $prod_prices[0] );
+//
+//// Regular Price
+//  $regular_prices = array( $v_product->get_variation_regular_price( 'min', true ),
+//    $v_product->get_variation_regular_price( 'max', true ) );
+//  sort( $regular_prices );
+//  $regular_price = $regular_prices[0]!==$regular_prices[1] ? sprintf(__('From: %1$s','woocommerce')
+//    , wc_price( $regular_prices[0] ) ) : wc_price( $regular_prices[0] );
+//
+//  if ( $prod_price !== $regular_price ) {
+//    $prod_price = '<del>'.$regular_price.$v_product->get_price_suffix() . '</del> <ins>' .
+//      $prod_price . $v_product->get_price_suffix() . '</ins>';
+//  }
+//  return $prod_price;
+//}
+////Hide “From:$X”
+//add_filter('woocommerce_get_price_html', 'lw_hide_variation_price', 10, 2);
+//function lw_hide_variation_price( $v_price, $v_product ) {
+//  $v_product_types = array( 'variable');
+//  if ( in_array ( $v_product->product_type, $v_product_types ) && !(is_shop()) ) {
+//    return '';
+//  }
+//// return regular price
+//  return $v_price;
+//}

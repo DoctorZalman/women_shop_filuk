@@ -13,7 +13,6 @@ $wp_query = new WP_Query(['post_type' => 'product']);
     <div class="container p-b-140">
       <!--category - button search / filter-->
       <?php get_template_part('template-parts/category_button _search_filter'); ?>
-
       <div id="ajax-posts" class="row">
         <?php
         $args = array( 'post_type' => 'product',
@@ -24,7 +23,6 @@ $wp_query = new WP_Query(['post_type' => 'product']);
           <?php wc_get_template_part('content', 'product'); ?>
         <?php endwhile; ?>
       </div>
-
       <!-- Load more -->
       <?php get_template_part('template-parts/load_more_button'); ?>
     </div>

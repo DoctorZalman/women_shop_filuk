@@ -100,10 +100,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 						</td>
 <!--            product-quantity-->
 						<td class="column-4 product-quantity" data-title="<?php esc_attr_e('Quantity', 'woocommerce'); ?>">
-              <div class="wrap-num-product flex-w m-l-auto m-r-0">
                 <?php
                 if ( $_product->is_sold_individually() ) {
-                  $product_quantity = sprintf( ' <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
+                  $product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
                 } else {
                   $product_quantity = woocommerce_quantity_input(
                     array(
@@ -117,11 +116,8 @@ do_action( 'woocommerce_before_cart' ); ?>
                     false
                   );
                 }
-                echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key, $cart_item ); // PHPCS: XSS ok.
+                echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key, $cart_item );
                 ?>
-
-
-
 <!--                <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">-->
 <!--                  <i class="fs-16 zmdi zmdi-minus">--><?php //echo esc_attr( $step ); ?><!--</i>-->
 <!--                </div>-->
@@ -131,14 +127,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 <!--                <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">-->
 <!--                  <i class="fs-16 zmdi zmdi-plus">--><?php //echo esc_attr( $step ); ?><!--</i>-->
 <!--                </div>-->
-              </div>
+
 
 <!--              <div class="quantity">-->
 <!--                <span class="product_quantity_minus">-</span>-->
 <!--                <input type="number" step="--><?php //echo esc_attr( $step ); ?><!--" --><?php //if ( is_numeric( $min_value ) ) : ?><!--min="--><?php //echo esc_attr( $min_value ); ?><!--"--><?php //endif; ?><!-- --><?php //if ( is_numeric( $max_value ) ) : ?><!--max="--><?php //echo esc_attr( $max_value ); ?><!--"--><?php //endif; ?><!-- name="--><?php //echo esc_attr( $input_name ); ?><!--" value="--><?php //echo esc_attr( $input_value ); ?><!--" title="--><?php //_ex( 'Qty', 'Product quantity input tooltip', 'woocommerce' ) ?><!--" class="mtext-104 cl3 txt-center num-product" size="4" />-->
 <!--                <span class="product_quantity_plus">+</span>-->
 <!--              </div>-->
-
 						</td>
 <!--            product-subtotal-->
 						<td class="column-5 product-subtotal" data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>">
@@ -167,8 +162,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 				}
 			}
 			?>
-			<?php do_action( 'woocommerce_cart_contents' ); ?>
 
+			<?php do_action( 'woocommerce_cart_contents' ); ?>
+    <?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
 
 			<?php do_action( 'woocommerce_after_cart_contents' ); ?>
 	</table>
@@ -190,7 +186,7 @@ do_action( 'woocommerce_before_cart' ); ?>
               <?php } ?>
             </div>
             <!--          update_cart-->
-            <button type="submit" class="button flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10" name="update_cart" placeholder="<?php esc_attr_e( 'Update cart', 'woocommerce' ); ?>"><?php esc_html_e( 'Update cart', 'woocommerce' ); ?></button>
+            <button id='up_Id' type="submit" class=" flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10" name="update_cart" value="<?php esc_attr_e( 'Update cart', 'woocommerce' ); ?>"><?php esc_html_e( 'Update cart', 'woocommerce' ); ?></button>
 
 <!--            <div class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">-->
 <!--              Update Cart-->
@@ -201,7 +197,6 @@ do_action( 'woocommerce_before_cart' ); ?>
           </div>
         </div>
       </div>
-
       <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
       <div class="cart-collaterals col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
         <div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
@@ -232,7 +227,7 @@ do_action( 'woocommerce_before_cart' ); ?>
             <?php endforeach; ?>
             <!--    якщо буде колись купон кіінець-->
 
-            <div class="flex-w flex-t bor12 p-t-15 p-b-30">
+            <div class="flex-w flex-t p-t-15 p-b-30">
               <div class="size-208 w-full-ssm">
 
                 <?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
@@ -246,92 +241,93 @@ do_action( 'woocommerce_before_cart' ); ?>
                   <?php endif; ?>
                   <!--									Shipping:-->
               </div>
-              <div class="size-209 p-r-18 p-r-0-sm w-full-ssm">
-                <p class="stext-111 cl6 p-t-2">
-                  There are no shipping methods available. Please double check your address, or contact us if you need any help.
-                </p>
-                <!--								Calculate Shipping-->
-                <div class="p-t-15">
 
-                  <span class="stext-112 cl8" data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>"><?php woocommerce_shipping_calculator(); ?></span>
-                  </tr>
-                  <div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
-                    <select class="js-select2" name="time">
-                      <option>Select a country...</option>
-                      <option>USA</option>
-                      <option>UK</option>
-                    </select>
-                    <div class="dropDownSelect2"></div>
-                  </div>
-                  <div class="bor8 bg0 m-b-12">
-                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeholder="State /  country">
-                  </div>
-                  <div class="bor8 bg0 m-b-22">
-                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="postcode" placeholder="Postcode / Zip">
-                  </div>
-
-
-                  <!--free ship-->
-                  <?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
-                    <tr class="fee">
-                      <th><?php echo esc_html( $fee->name ); ?></th>
-                      <td data-title="<?php echo esc_attr( $fee->name ); ?>"><?php wc_cart_totals_fee_html( $fee ); ?></td>
-                    </tr>
-                  <?php endforeach; ?>
-                  <!--tax ship-->
-                  <?php
-                  if ( wc_tax_enabled() && ! WC()->cart->display_prices_including_tax() ) {
-                    $taxable_address = WC()->customer->get_taxable_address();
-                    $estimated_text  = '';
-
-                    if ( WC()->customer->is_customer_outside_base() && ! WC()->customer->has_calculated_shipping() ) {
-                      /* translators: %s location. */
-                      $estimated_text = sprintf( ' <small>' . esc_html__( '(estimated for %s)', 'woocommerce' ) . '</small>', WC()->countries->estimated_for_prefix( $taxable_address[0] ) . WC()->countries->countries[ $taxable_address[0] ] );
-                    }
-
-                    if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) {
-                      foreach ( WC()->cart->get_tax_totals() as $code => $tax ) { // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
-                        ?>
-                        <tr class="tax-rate tax-rate-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
-                          <th><?php echo esc_html( $tax->label ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></th>
-                          <td data-title="<?php echo esc_attr( $tax->label ); ?>"><?php echo wp_kses_post( $tax->formatted_amount ); ?></td>
-                        </tr>
-                        <?php
-                      }
-                    } else {
-                      ?>
-                      <tr class="tax-total">
-                        <th><?php echo esc_html( WC()->countries->tax_or_vat() ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></th>
-                        <td data-title="<?php echo esc_attr( WC()->countries->tax_or_vat() ); ?>"><?php wc_cart_totals_taxes_total_html(); ?></td>
-                      </tr>
-                      <?php
-                    }
-                  }
-                  ?>
-
-                  <?php do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
-
-                  <!--									Update Totals-->
-                  <div class="flex-w">
-                    <div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer order-total">
-                      <?php esc_html_e( 'Update Totals', 'woocommerce' ); ?>
-                      <td data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></td>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<!--              <div class="size-209 p-r-18 p-r-0-sm w-full-ssm">-->
+<!--                <p class="stext-111 cl6 p-t-2">-->
+<!--                  There are no shipping methods available. Please double check your address, or contact us if you need any help.-->
+<!--                </p>-->
+<!--                <								Calculate Shipping-->
+<!--                <div class="p-t-15">-->
+<!---->
+<!--                  <span class="stext-112 cl8" data-title="--><?php //esc_attr_e( 'Shipping', 'woocommerce' ); ?><!--">--><?php //woocommerce_shipping_calculator(); ?><!--</span>-->
+<!--                  </tr>-->
+<!--                  <div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">-->
+<!--                    <select class="js-select2" name="time">-->
+<!--                      <option>Select a country...</option>-->
+<!--                      <option>USA</option>-->
+<!--                      <option>UK</option>-->
+<!--                    </select>-->
+<!--                    <div class="dropDownSelect2"></div>-->
+<!--                  </div>-->
+<!--                  <div class="bor8 bg0 m-b-12">-->
+<!--                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeholder="State /  country">-->
+<!--                  </div>-->
+<!--                  <div class="bor8 bg0 m-b-22">-->
+<!--                    <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="postcode" placeholder="Postcode / Zip">-->
+<!--                  </div>-->
+<!---->
+<!---->
+<!--                  free ship-->
+<!--                  --><?php //foreach ( WC()->cart->get_fees() as $fee ) : ?>
+<!--                    <tr class="fee">-->
+<!--                      <th>--><?php //echo esc_html( $fee->name ); ?><!--</th>-->
+<!--                      <td data-title="--><?php //echo esc_attr( $fee->name ); ?><!--">--><?php //wc_cart_totals_fee_html( $fee ); ?><!--</td>-->
+<!--                    </tr>-->
+<!--                  --><?php //endforeach; ?>
+<!--                  tax ship-->
+<!--                  --><?php
+//                  if ( wc_tax_enabled() && ! WC()->cart->display_prices_including_tax() ) {
+//                    $taxable_address = WC()->customer->get_taxable_address();
+//                    $estimated_text  = '';
+//
+//                    if ( WC()->customer->is_customer_outside_base() && ! WC()->customer->has_calculated_shipping() ) {
+//                      /* translators: %s location. */
+//                      $estimated_text = sprintf( ' <small>' . esc_html__( '(estimated for %s)', 'woocommerce' ) . '</small>', WC()->countries->estimated_for_prefix( $taxable_address[0] ) . WC()->countries->countries[ $taxable_address[0] ] );
+//                    }
+//
+//                    if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) {
+//                      foreach ( WC()->cart->get_tax_totals() as $code => $tax ) { // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
+//                        ?>
+<!--                        <tr class="tax-rate tax-rate---><?php //echo esc_attr( sanitize_title( $code ) ); ?><!--">-->
+<!--                          <th>--><?php //echo esc_html( $tax->label ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><!--</th>-->
+<!--                          <td data-title="--><?php //echo esc_attr( $tax->label ); ?><!--">--><?php //echo wp_kses_post( $tax->formatted_amount ); ?><!--</td>-->
+<!--                        </tr>-->
+<!--                        --><?php
+//                      }
+//                    } else {
+//                      ?>
+<!--                      <tr class="tax-total">-->
+<!--                        <th>--><?php //echo esc_html( WC()->countries->tax_or_vat() ) . $estimated_text; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><!--</th>-->
+<!--                        <td data-title="--><?php //echo esc_attr( WC()->countries->tax_or_vat() ); ?><!--">--><?php //wc_cart_totals_taxes_total_html(); ?><!--</td>-->
+<!--                      </tr>-->
+<!--                      --><?php
+//                    }
+//                  }
+//                  ?>
+<!---->
+<!--                  --><?php //do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
+<!---->
+<!--                  <									Update Totals-->
+<!--                  <div class="flex-w">-->
+<!--                    <div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer order-total">-->
+<!--                      --><?php //esc_html_e( 'Update Totals', 'woocommerce' ); ?>
+<!--                      <td data-title="--><?php //esc_attr_e( 'Total', 'woocommerce' ); ?><!--">--><?php //wc_cart_totals_order_total_html(); ?><!--</td>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
             </div>
 
             <?php do_action( 'woocommerce_cart_totals_after_order_total' ); ?>
-            <div class="flex-w flex-t p-t-27 p-b-33">
-              <div class="size-208">
-                <span class="mtext-101 cl2"><?php esc_html_e( 'Total', 'woocommerce' ); ?></span>
-              </div>
-
-              <div class="size-209 p-t-1">
-                <span class="mtext-110 cl2"><?php wc_cart_totals_order_total_html(); ?></span>
-              </div>
-            </div>
+<!--            <div class="flex-w flex-t p-t-27 p-b-33">-->
+<!--              <div class="size-208">-->
+<!--                <span class="mtext-101 cl2">--><?php //esc_html_e( 'Total', 'woocommerce' ); ?><!--</span>-->
+<!--              </div>-->
+<!---->
+<!--              <div class="size-209 p-t-1">-->
+<!--                <span class="mtext-110 cl2">--><?php //wc_cart_totals_order_total_html(); ?><!--</span>-->
+<!--              </div>-->
+<!--            </div>-->
 
             <div class="wc-proceed-to-checkout">
             </div>

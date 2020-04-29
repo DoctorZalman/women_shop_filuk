@@ -29,9 +29,8 @@ if ( $max_value && $min_value === $max_value ) {
 	?>
 	<div class="wrap-num-product flex-w m-r-20 m-tb-10 quantity">
 		<?php do_action( 'woocommerce_before_quantity_input_field' ); ?>
-<!--		<label class="screen-reader-text" for="--><?php //echo esc_attr( $input_id ); ?><!--">--><?php //echo esc_attr( $label ); ?><!--</label>-->
+		<label class="screen-reader-text" for="<?php echo esc_attr( $input_id ); ?>"><?php echo esc_attr( $label ); ?></label>
     <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-
       <?php
       $step1 = "-";
       echo esc_attr( $step1 ); ?>
@@ -49,7 +48,6 @@ if ( $max_value && $min_value === $max_value ) {
 			size="4"
 			placeholder="<?php echo esc_attr( $placeholder ); ?>"
 			inputmode="<?php echo esc_attr( $inputmode ); ?>" />
-
     <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
       <?php
       $step2 = "+";

@@ -1,0 +1,32 @@
+2020-04-29T08:58:02+00:00 CRITICAL Uncaught Error: Call to a member function is_sold_individually() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\wishlist-view.php:216
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\yith-woocommerce-wishlist-premium\includes\functions.yith-wcwl.php(98): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\yith-woocommerce-wishlist-premium\includes\functions.yith-wcwl.php(141): yith_wcwl_get_template('wishlist-view.p...', Array, false)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\yith-woocommerce-wishlist-premium\includes\class.yith-wcwl-frontend.php(441): yith_wcwl_get_template_part('view', '', '', Array)
+#3 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): YITH_WCWL_Frontend->main_wishlist_content(Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 D:\php\OSPa in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\wishlist-view.php on line 216
+
+2020-04-29T13:13:24+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\woocommerce\order\order-details-customer.php on line 58
+
+2020-04-29T13:33:12+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\order\order-details-item.php:30
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\order\order-details.php(71): wc_get_template('order/order-det...', Array)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_order_details_table(272)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_H in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 30
+
+2020-04-29T13:34:46+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\order\order-details-item.php:32
+Stack trace:
+#0 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\order\order-details.php(71): wc_get_template('order/order-det...', Array)
+#2 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\php\\OSPanel\\...')
+#3 D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2556): wc_get_template('order/order-det...', Array)
+#4 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(287): woocommerce_order_details_table(272)
+#5 D:\php\OSPanel\domains\shopfiluk\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\php\OSPanel\domains\shopfiluk\wp-includes\plugin.php(478): WP_H in D:\php\OSPanel\domains\shopfiluk\wp-content\plugins\woocommerce\templates\order\order-details-item.php on line 32
+

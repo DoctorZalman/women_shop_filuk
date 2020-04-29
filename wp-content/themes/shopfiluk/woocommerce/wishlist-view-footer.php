@@ -38,39 +38,39 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 	<div class="yith_wcwl_wishlist_footer">
 		<?php if ( $count && $show_cb ) : ?>
 			<!-- Bulk actions form -->
-			<div class="yith_wcwl_wishlist_bulk_action">
-				<label for="bulk_actions"><?php echo esc_html( apply_filters( 'yith_wcwl_wishlist_bulk_actions_label', __( 'Apply this action to all the selected items:', 'yith-woocommerce-wishlist' ) ) ); ?></label>
-				<select name="bulk_actions" id="bulk_actions">
-					<option value="add_to_cart"><?php esc_html_e( 'Add to cart', 'yith-woocommerce-wishlist' ); ?></option>
-
-					<?php if ( $wishlist->current_user_can( 'remove_from_wishlist' ) ): ?>
-						<option value="delete"><?php esc_html_e( 'Remove from wishlist', 'yith-woocommerce-wishlist' ); ?></option>
-					<?php endif; ?>
-
-					<?php if ( $available_multi_wishlist && count( $users_wishlists ) > 1 && $is_user_owner ): ?>
-						<?php
-						foreach ( $users_wishlists as $wl ):
-							/**
-							 * @var $wl \YITH_WCWL_Wishlist
-							 */
-							if ( $wl->get_token() == $wishlist_token ) {
-								continue;
-							}
-							?>
-							<option value="<?php echo esc_attr( $wl->get_token() ); ?>"><?php echo esc_html( sprintf( __( 'Move to %s', 'yith-woocommerce-wishlist' ), $wl->get_formatted_name() ) ); ?></option>
-						<?php endforeach; ?>
-					<?php endif; ?>
-				</select>
-				<input type="submit" name="apply_bulk_actions" value="<?php esc_html_e( 'Apply', 'yith-woocommerce-wishlist' ); ?>"/>
-			</div>
+<!--			<div class="yith_wcwl_wishlist_bulk_action">-->
+<!--				<label for="bulk_actions">--><?php //echo esc_html( apply_filters( 'yith_wcwl_wishlist_bulk_actions_label', __( 'Apply this action to all the selected items:', 'yith-woocommerce-wishlist' ) ) ); ?><!--</label>-->
+<!--				<select name="bulk_actions" id="bulk_actions">-->
+<!--					<option value="add_to_cart">--><?php //esc_html_e( 'Add to cart', 'yith-woocommerce-wishlist' ); ?><!--</option>-->
+<!---->
+<!--					--><?php //if ( $wishlist->current_user_can( 'remove_from_wishlist' ) ): ?>
+<!--						<option value="delete">--><?php //esc_html_e( 'Remove from wishlist', 'yith-woocommerce-wishlist' ); ?><!--</option>-->
+<!--					--><?php //endif; ?>
+<!---->
+<!--					--><?php //if ( $available_multi_wishlist && count( $users_wishlists ) > 1 && $is_user_owner ): ?>
+<!--						--><?php
+//						foreach ( $users_wishlists as $wl ):
+//							/**
+//							 * @var $wl \YITH_WCWL_Wishlist
+//							 */
+//							if ( $wl->get_token() == $wishlist_token ) {
+//								continue;
+//							}
+//							?>
+<!--							<option value="--><?php //echo esc_attr( $wl->get_token() ); ?><!--">--><?php //echo esc_html( sprintf( __( 'Move to %s', 'yith-woocommerce-wishlist' ), $wl->get_formatted_name() ) ); ?><!--</option>-->
+<!--						--><?php //endforeach; ?>
+<!--					--><?php //endif; ?>
+<!--				</select>-->
+<!--				<input type="submit" name="apply_bulk_actions" value="--><?php //esc_html_e( 'Apply', 'yith-woocommerce-wishlist' ); ?><!--"/>-->
+<!--			</div>-->
 		<?php endif; ?>
 
 
 		<?php if ( $count && $show_update ) : ?>
 			<!-- Update wishlist button -->
-			<div class="yith_wcwl_wishlist_update">
-				<input type="submit" name="update_wishlist" value="<?php esc_html_e( 'Update', 'yith-woocommerce-wishlist' ); ?>"/>
-			</div>
+<!--			<div class="yith_wcwl_wishlist_update">-->
+<!--				<input type="submit" name="update_wishlist" value="--><?php //esc_html_e( 'Update', 'yith-woocommerce-wishlist' ); ?><!--"/>-->
+<!--			</div>-->
 		<?php endif; ?>
 
 
@@ -80,20 +80,20 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		<?php endif; ?>
 
 		<?php if ( $count && ( $show_ask_estimate_button || $enable_add_all_to_cart ) ): ?>
-			<div class="yith_wcwl_footer_additional_action">
-				<?php if ( $count && $show_ask_estimate_button ): ?>
-					<!-- Ask an estimate button -->
-					<a href="<?php echo ( $additional_info || ! is_user_logged_in() ) ? '#ask_an_estimate_popup' : esc_url( $ask_estimate_url ); ?>" class="<?php echo esc_attr( $ask_an_estimate_classes ); ?> ask-an-estimate-button" <?php echo $additional_info ? 'data-rel="prettyPhoto[ask_an_estimate]"' : '' ?> >
-						<?php echo apply_filters( 'yith_wcwl_ask_an_estimate_icon', $ask_an_estimate_icon ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-						<?php echo esc_html( apply_filters( 'yith_wcwl_ask_an_estimate_text', $ask_an_estimate_text ) ); ?>
-					</a>
-				<?php endif; ?>
-
-				<?php if ( $count && $enable_add_all_to_cart ): ?>
-					<!-- Add all to cart button -->
-					<input type="submit" name="add_all_to_cart" value="<?php esc_html_e( 'Add all to cart', 'yith-woocommerce-wishlist' ); ?>"/>
-				<?php endif; ?>
-			</div>
+<!--			<div class="yith_wcwl_footer_additional_action">-->
+<!--				--><?php //if ( $count && $show_ask_estimate_button ): ?>
+<!--					Ask an estimate button -->
+<!--					<a href="--><?php //echo ( $additional_info || ! is_user_logged_in() ) ? '#ask_an_estimate_popup' : esc_url( $ask_estimate_url ); ?><!--" class="--><?php //echo esc_attr( $ask_an_estimate_classes ); ?><!-- ask-an-estimate-button" --><?php //echo $additional_info ? 'data-rel="prettyPhoto[ask_an_estimate]"' : '' ?><!-- >-->
+<!--						--><?php //echo apply_filters( 'yith_wcwl_ask_an_estimate_icon', $ask_an_estimate_icon ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<!--						--><?php //echo esc_html( apply_filters( 'yith_wcwl_ask_an_estimate_text', $ask_an_estimate_text ) ); ?>
+<!--					</a>-->
+<!--				--><?php //endif; ?>
+<!---->
+<!--				--><?php //if ( $count && $enable_add_all_to_cart ): ?>
+<!--					Add all to cart button -->
+<!--					<input type="submit" name="add_all_to_cart" value="--><?php //esc_html_e( 'Add all to cart', 'yith-woocommerce-wishlist' ); ?><!--"/>-->
+<!--				--><?php //endif; ?>
+<!--			</div>-->
 		<?php endif; ?>
 	</div>
 

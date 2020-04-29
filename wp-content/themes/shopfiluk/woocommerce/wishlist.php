@@ -8,6 +8,7 @@
  */
 
 /**
+ *
  * Template Variables:
  *
  * @var $template_part string Sub-template to load
