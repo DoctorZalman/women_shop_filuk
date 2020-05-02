@@ -15,7 +15,7 @@
  * @version 3.8.0
  */
 
-/*Template Name: Cart*/
+
 
 defined( 'ABSPATH' ) || exit;
 
@@ -164,10 +164,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 			?>
 
 			<?php do_action( 'woocommerce_cart_contents' ); ?>
-    <?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
+
 
 			<?php do_action( 'woocommerce_after_cart_contents' ); ?>
 	</table>
+
 	<?php do_action( 'woocommerce_after_cart_table' ); ?>
           </div>
           <!--          coupon and update cart-->
@@ -195,7 +196,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 <!--            <button type="submit" class="button" name="update_cart" value="--><?php //esc_attr_e( 'Update cart', 'woocommerce' ); ?><!--">--><?php //esc_html_e( 'Update cart', 'woocommerce' ); ?><!--</button>-->
 
           </div>
+
         </div>
+
       </div>
       <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
       <div class="cart-collaterals col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
@@ -340,6 +343,7 @@ do_action( 'woocommerce_before_cart' ); ?>
       </div>
       <?php do_action( 'woocommerce_after_cart' ); ?>
     </div>
+
   </div>
 </form>
 
