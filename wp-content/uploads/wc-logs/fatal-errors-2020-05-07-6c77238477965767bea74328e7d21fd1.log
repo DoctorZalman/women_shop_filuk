@@ -1,0 +1,2 @@
+2020-05-07T17:48:56+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 32768 bytes) in D:\php\OSPanel\domains\shopfiluk\wp-content\themes\shopfiluk\functions.php on line 231
+
