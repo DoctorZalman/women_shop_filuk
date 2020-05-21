@@ -1,0 +1,18 @@
+.еwoocommerce-shipping-destination{
+  display: none;
+}
+.woocommerce-input-wrapper .select2-container{
+  width: 100% !important;
+}
+.woocommerce-input-wrapper .select3-container{
+  width: 100% !important;
+}
+.select{
+  background: none;
+    color: #444;
+    padding: 2px;
+    border-radius: 4px;
+}
+  span.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #444;
+}

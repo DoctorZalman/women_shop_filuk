@@ -1,0 +1,3 @@
+[2020-05-08 11:14:42] db_update.INFO: Areas were successfully updated, affected 25 rows, deleted 0 rows [] []
+[2020-05-08 11:15:00] db_update.INFO: Cities were successfully updated, affected 4480 rows, deleted 0 rows [] []
+[2020-05-08 11:15:10] db_update.INFO: Warehouses were successfully updated, affected 6441 rows, deleted 0 rows [] []

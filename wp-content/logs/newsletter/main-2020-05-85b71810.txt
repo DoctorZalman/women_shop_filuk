@@ -1,0 +1,2 @@
+15-05-2020 07:30:50 - ERROR - v: 6.6.4 - m: 64,2 MB, u: 0 - cURL error 28: Connection timed out after 5001 milliseconds (http_request_failed) - 
+15-05-2020 07:31:25 - ERROR - v: 6.6.4 - m: 64,3 MB, u: 0 - cURL error 28: Connection timed out after 5000 milliseconds (http_request_failed) - 
