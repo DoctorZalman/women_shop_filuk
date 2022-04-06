@@ -14,6 +14,6 @@
     "homepage": "https://yithemes.com/themes/plugins/yith-woocommerce-wishlist/",
     "license": "GPL-3.0",
     "require": {
-        "dompdf/dompdf": "^0.8.3"
+        "dompdf/dompdf": "^1.2.1"
     }
 }
